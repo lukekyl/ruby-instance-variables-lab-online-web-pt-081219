@@ -4,7 +4,7 @@ class Dog
       @this_dogs_name = name
   end
   
-  def name(dog)
-    puts "This Dog's name is #{dog}"
+  def name
+    puts "This Dog's name is #{@this_dogs_name}"
   end
 end
